@@ -1,15 +1,3 @@
-  <article class="post-aside">
+<?php get_header(); ?>
 
-
-
-
-   <div class="post-content text-justify">
-   <?php the_post_thumbnail('large');?> 
- 
- <?php the_content();?> </div>
-
-
-  </article>
-
-
-
+<?php get_footer();?>

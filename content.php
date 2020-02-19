@@ -1,3 +1,3 @@
-  <article>
-         <?php the_content();?>
-  </article>
+<?php get_header(); ?>
+
+<?php get_footer();?>

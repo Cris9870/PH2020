@@ -2,7 +2,7 @@
 
 //adds the viewport meta tag to the header.php file
 function add_viewport_meta_tag() {
-        echo '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
+        
  }
 
 add_theme_support( "menus" );
@@ -36,9 +36,9 @@ remove_filter('the_content', 'wpautop');
 function hop_master_add_resources()
 {
 	//Materialize js
-	wp_register_script( '', get_template_directory_uri() . '/node_modules/materializecss/dist/js/materialize.min.js', array( 'matrialize' ) );
+	wp_register_script( 'materializejs', get_template_directory_uri() . '/node_modules/materialize-css/dist/js/materialize.min.js', array( 'matrialize' ) );
 	//Materialize css
-    wp_enqueue_style( 'slider', get_template_directory_uri() . '/node_modules/materializecss/dist/css/materialize.min.css');
+    wp_enqueue_style( 'materializecss', get_template_directory_uri() . '/node_modules/materialize-css/dist/css/materialize.min.css');
 }
 add_action( 'wp_enqueue_scripts', 'hop_master_add_resources' );
 
