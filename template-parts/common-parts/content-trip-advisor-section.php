@@ -1,6 +1,3 @@
-<?php 
-
-
-echo 'TRIP ADVISOR';
-
-?>
+<section>
+	<h1>TRIP ADVISOR</h1>
+</section>

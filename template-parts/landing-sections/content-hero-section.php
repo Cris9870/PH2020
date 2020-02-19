@@ -1,6 +1,3 @@
-<?php 
-
-
-echo 'HERO';
-
-?>
+<section>
+	<h1>HERO</h1>
+</section>
